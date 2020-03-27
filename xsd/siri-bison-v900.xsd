@@ -6,14 +6,15 @@
 <!--     zie http://creativecommons.org/licences/by-nd/3.0/nl                          -->
 <!-- Dit XSD is onderdeel van het TMI9 SIRI Nederlands profiel                         -->
 <!--                                                                                   -->
-<!-- Versie:  v9.0.0a                                                                  -->
+<!-- Versie:  v9.0.0b                                                                  -->
 <!--                                                                                   -->
 <!-- Historie:                                                                         -->
 <!--   v9.0.0  (oktober 2019) initiele versie                                          -->
 <!--   v9.0.0a (januari 2020) copyright aangepast                                      -->
+<!--   v9.0.0b (maart 2020)   import xml.xsd van www.w3.org ipv lokaal                 -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <xsd:schema xmlns="http://www.siri.org.uk/siri" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.siri.org.uk/siri" elementFormDefault="qualified" attributeFormDefault="qualified" version="9.0.0" id="siri-bison-xsd">
-	<xsd:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+	<xsd:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd"/>
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	<!-- ABSTRACTE TYPEN                                                   -->
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
